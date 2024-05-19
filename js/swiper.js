@@ -30,11 +30,11 @@ new Swiper('.swiper', {
     spaceBetween: 30,
     loop: true,
     freeMode: true,
-    // autoplay: {
-    //     delay: 2000,
-    //     stopOnLastSlide: false,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+    },
     speed: 500,
     breakpoints: {
         320: {
